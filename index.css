@@ -11,9 +11,7 @@ h1 {
     margin: 30px 25px;
 }
 
-.caption {
-    margin: 0 25px
-}
+
 
 header {
     background-color: #282828;
@@ -26,6 +24,10 @@ ul {
     padding: 25px;
     list-style: none;
     gap: 10px;
+}
+
+.align-right {
+    margin: auto 0 auto auto;
 }
 
 .item-img {
@@ -41,8 +43,7 @@ ul {
     width: 25px;
 }
 
-/*
-Challenge:
-1. Get this layout looking like the 
-   screenshots on the slide.
-*/  
+.caption {
+    margin: 0 25px
+}
+
