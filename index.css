@@ -11,11 +11,10 @@ h1 {
     margin: 30px 25px;
 }
 
-
-
 header {
     background-color: #282828;
     color: whitesmoke;
+    width: 100vw;
 }
 
 ul {
@@ -70,5 +69,23 @@ button {
     padding: 10px 15px;
     font-weight: 700;
     cursor: pointer;
-    margin: auto 0;
+    align-self: center;
+}
+
+.chatbox-bg {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.chatbox-img {
+    width: 50%;
+    margin: auto;
 }
